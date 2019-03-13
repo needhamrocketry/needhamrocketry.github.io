@@ -1,0 +1,114 @@
+@font-face {
+    font-family: "Montserrat";
+    src: url("fonts/Montserrat-Medium.ttf");
+}
+
+@font-face {
+    
+}
+
+html, body {
+    
+    margin: 0;
+    
+    padding: 0;
+}
+
+h1{
+    margin:0;
+    color: #ffd265;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3.8vw
+}
+
+h2 {
+    color: #005e9a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 3vw;
+}
+
+p {
+    color: #005e9a;
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+}
+
+a.bottommenutext, a.bottommenutext:visited {
+    margin:0;
+    color: #ffd265;
+    font-family: "Montserrat", sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+a.bottommenutext:hover {
+    margin:0;
+    color: #eec040;
+    font-family: "Montserrat", sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+a.menutext, a.menutext:visited {
+    margin:0;
+    color: #005e9a;
+    font-family: "Montserrat", sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+a.menutext:hover {
+    margin:0;
+    color: #002080;
+    font-family: "Montserrat", sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+.title{
+    margin:0;
+    color: #ffd250;
+    font-family: "Montserrat", sans-serif;
+    padding:0;
+}
+
+.header{
+    display: flex;
+    background-color: #005e9a;
+    height: 200px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.menu {
+    display: flex;
+    background-color: #ffd250;
+    height: 50px;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    position: fixed;
+    width: 100%;
+}
+
+div.body{
+    padding-left: 2%;
+    padding-right: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 96%%;
+}
